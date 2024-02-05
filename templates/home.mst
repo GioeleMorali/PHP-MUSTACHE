@@ -1,0 +1,15 @@
+<h1 style=\"font-size:50px\";>Ciao, {{planet}}!</h1>
+{{{html}}}
+<p> This is an example for usage for mustache engine by {{author}}</p>
+{{#alunni.0}}
+<ul>
+{{#alunni}}
+<li>
+{{.}}
+</li>
+{{/alunni}}
+</ul>
+{{/alunni.0}}
+{{#script}}
+<script>{{{script}}}</script>
+{{/script}}
